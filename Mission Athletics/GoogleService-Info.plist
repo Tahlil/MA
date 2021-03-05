@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>272259798247-tsisvoj089454rfu7ttncoamub2ksm5c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.272259798247-tsisvoj089454rfu7ttncoamub2ksm5c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCMxjb84ZwUYTo043IAaX3-jWVQSEs0LCs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>272259798247</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mission-athletics</string>
+	<key>PROJECT_ID</key>
+	<string>mission-athletics-6bbd7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mission-athletics-6bbd7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:272259798247:ios:61ce439d1d250bf3a67e42</string>
+	<key>DATABASE_URL</key>
+	<string>https://mission-athletics-6bbd7.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="brandon-grotesque-light-58a8a4b38001d.otf">
+            <string>BrandonGrotesque-Light</string>
+        </array>
+        <array key="brandon-grotesque-medium-587bd623e472a.otf">
+            <string>BrandonGrotesque-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="86" id="KGk-i7-Jjw" customClass="MessegeSenderTextCell" customModule="Mission_Athletics" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="86"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:35 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="byv-7V-Yjx">
+                        <rect key="frame" x="109" y="63.5" width="50" height="17.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="S22-cg-aCH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="BrandonGrotesque-Light" family="Brandon Grotesque" pointSize="12"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icn_message_read" translatesAutoresizingMaskIntoConstraints="NO" id="YWz-OC-8QL">
+                        <rect key="frame" x="162" y="68" width="17" height="10"/>
+                    </imageView>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lme-Vp-NZ3">
+                        <rect key="frame" x="187" y="5" width="123" height="76"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="this is textt this" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rFC-g3-4kj">
+                                <rect key="frame" x="10" y="5" width="103" height="66"/>
+                                <color key="backgroundColor" red="0.12549019610000001" green="0.61176470589999998" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="leftInset">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rightInset">
+                                        <real key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.12549019607843137" green="0.61176470588235299" blue="0.81568627450980391" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="rFC-g3-4kj" secondAttribute="trailing" constant="10" id="5zE-4B-aJP"/>
+                            <constraint firstItem="rFC-g3-4kj" firstAttribute="top" secondItem="Lme-Vp-NZ3" secondAttribute="top" constant="5" id="K3T-Dc-ffn"/>
+                            <constraint firstAttribute="bottom" secondItem="rFC-g3-4kj" secondAttribute="bottom" constant="5" id="qRy-Tp-b0P"/>
+                            <constraint firstItem="rFC-g3-4kj" firstAttribute="leading" secondItem="Lme-Vp-NZ3" secondAttribute="leading" constant="10" id="zc3-xB-4S5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="byv-7V-Yjx" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" priority="999" constant="5" id="2nK-LF-Y04"/>
+                    <constraint firstItem="Lme-Vp-NZ3" firstAttribute="leading" secondItem="YWz-OC-8QL" secondAttribute="trailing" constant="8" id="6wA-AG-npe"/>
+                    <constraint firstItem="Lme-Vp-NZ3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="UVf-fw-99Z"/>
+                    <constraint firstAttribute="bottom" secondItem="YWz-OC-8QL" secondAttribute="bottom" constant="8" id="bpK-rl-JYV"/>
+                    <constraint firstAttribute="bottom" secondItem="byv-7V-Yjx" secondAttribute="bottom" constant="5" id="drJ-vE-F7g"/>
+                    <constraint firstAttribute="bottom" secondItem="Lme-Vp-NZ3" secondAttribute="bottom" constant="5" id="mRw-Kb-NCC"/>
+                    <constraint firstAttribute="trailing" secondItem="Lme-Vp-NZ3" secondAttribute="trailing" constant="10" id="rMd-PF-tB2"/>
+                    <constraint firstItem="YWz-OC-8QL" firstAttribute="leading" secondItem="byv-7V-Yjx" secondAttribute="trailing" constant="3" id="zjd-0p-oEd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="ivSentReadIndicator" destination="YWz-OC-8QL" id="RDL-rS-Uok"/>
+                <outlet property="lblMessege" destination="rFC-g3-4kj" id="oNN-xa-3Rv"/>
+                <outlet property="lblTime" destination="byv-7V-Yjx" id="FQB-s8-9FG"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="161.01949025487258"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icn_message_read" width="17" height="10"/>
+    </resources>
+</document>

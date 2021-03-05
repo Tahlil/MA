@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="brandon-grotesque-medium-587bd623e472a.otf">
+            <string>BrandonGrotesque-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VideoPostCell" customModule="Mission_Athletics" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="224" height="330"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="224" height="330"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KIi-pa-Bjy">
+                        <rect key="frame" x="5" y="5" width="214" height="320"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImage" translatesAutoresizingMaskIntoConstraints="NO" id="J2v-5B-xj6">
+                                <rect key="frame" x="10" y="10" width="194" height="235"/>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 Rounds: strategy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wr-o1-eP0">
+                                <rect key="frame" x="10" y="265" width="194" height="24.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24.5" id="CiI-SQ-bxn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January, 21st 2018" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VvT-8V-wnE">
+                                <rect key="frame" x="10" y="294.5" width="194" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20.5" id="xhx-lM-3dZ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BrandonGrotesque-Medium" family="Brandon Grotesque" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFE-jY-Gpy">
+                                <rect key="frame" x="-5" y="205" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="sFE-jY-Gpy" secondAttribute="height" multiplier="1:1" id="BWb-o3-FV3"/>
+                                    <constraint firstAttribute="width" constant="60" id="xXx-l9-F7a"/>
+                                </constraints>
+                                <state key="normal" image="play_main"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3Wr-o1-eP0" firstAttribute="trailing" secondItem="J2v-5B-xj6" secondAttribute="trailing" id="01Z-gW-d5c"/>
+                            <constraint firstAttribute="bottom" secondItem="VvT-8V-wnE" secondAttribute="bottom" constant="5" id="5rc-oe-3kE"/>
+                            <constraint firstItem="J2v-5B-xj6" firstAttribute="leading" secondItem="KIi-pa-Bjy" secondAttribute="leading" constant="10" id="7lc-ll-94P"/>
+                            <constraint firstItem="J2v-5B-xj6" firstAttribute="top" secondItem="KIi-pa-Bjy" secondAttribute="top" constant="10" id="B2o-aU-Bla"/>
+                            <constraint firstItem="3Wr-o1-eP0" firstAttribute="leading" secondItem="J2v-5B-xj6" secondAttribute="leading" id="Ec7-bd-EAv"/>
+                            <constraint firstItem="sFE-jY-Gpy" firstAttribute="leading" secondItem="KIi-pa-Bjy" secondAttribute="leading" constant="-5" id="Fy1-c8-X5d"/>
+                            <constraint firstItem="3Wr-o1-eP0" firstAttribute="top" secondItem="J2v-5B-xj6" secondAttribute="bottom" constant="20" id="Tpu-8P-pUF"/>
+                            <constraint firstItem="VvT-8V-wnE" firstAttribute="leading" secondItem="3Wr-o1-eP0" secondAttribute="leading" id="b1N-il-sfY"/>
+                            <constraint firstItem="VvT-8V-wnE" firstAttribute="top" secondItem="3Wr-o1-eP0" secondAttribute="bottom" constant="5" id="bZR-MB-Ch5"/>
+                            <constraint firstItem="sFE-jY-Gpy" firstAttribute="bottom" secondItem="J2v-5B-xj6" secondAttribute="bottom" constant="20" id="bkD-xN-1bu"/>
+                            <constraint firstAttribute="trailing" secondItem="J2v-5B-xj6" secondAttribute="trailing" constant="10" id="gR8-2H-jni"/>
+                            <constraint firstItem="VvT-8V-wnE" firstAttribute="trailing" secondItem="3Wr-o1-eP0" secondAttribute="trailing" id="rzz-kP-RSq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="KIi-pa-Bjy" secondAttribute="bottom" constant="5" id="KC8-bu-wtp"/>
+                <constraint firstItem="KIi-pa-Bjy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="5" id="PI9-88-Dgg"/>
+                <constraint firstAttribute="trailing" secondItem="KIi-pa-Bjy" secondAttribute="trailing" constant="5" id="q0b-XW-G8h"/>
+                <constraint firstItem="KIi-pa-Bjy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="tVN-SL-0sm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="224" height="330"/>
+            <connections>
+                <outlet property="btnPlay" destination="sFE-jY-Gpy" id="zSS-8N-Zhn"/>
+                <outlet property="imgVideoPost" destination="J2v-5B-xj6" id="tD8-XL-LRs"/>
+                <outlet property="lblPostDate" destination="VvT-8V-wnE" id="sPM-JI-4Dn"/>
+                <outlet property="lblPostTitle" destination="3Wr-o1-eP0" id="yeT-e7-abP"/>
+            </connections>
+            <point key="canvasLocation" x="272" y="235.68215892053973"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="noImage" width="333" height="333"/>
+        <image name="play_main" width="115" height="115"/>
+    </resources>
+</document>

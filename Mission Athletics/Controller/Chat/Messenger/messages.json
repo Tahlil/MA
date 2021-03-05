@@ -1,0 +1,28 @@
+{
+    "statusCode": "0",
+    "chatHistory": [
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12374","senderID": "4285","receiverID": "4548","messageText": "What exactly you want to achieve by distinguishing them ?","attachedDocument": "","messageStatus": "R","postedTime": "1568717566","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12375","senderID": "4285","receiverID": "4548","messageText": "Hello Bill!","attachedDocument": "","messageStatus": "R","postedTime": "1568717776","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12390","senderID": "4285","receiverID": "4548","messageText": "Hello","attachedDocument": "","messageStatus": "R","postedTime": "1568722565","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12391","senderID": "4285","receiverID": "4548","messageText": "hi again","attachedDocument": "","messageStatus": "R","postedTime": "1568722594","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12398","senderID": "4285","receiverID": "4548","messageText": "Convert your JSON string to array first, then loop through each dictionary in the array, inspect the type value, and then choose the model accordingly for public func.","attachedDocument": "","messageStatus": "R","postedTime": "1568726044","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12399","senderID": "4285","receiverID": "4548","messageText": "no hii this is message test and you are welcom to this group. ","attachedDocument": "","messageStatus": "R","postedTime": "1568726057","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12405","senderID": "4285","receiverID": "4548","messageText": "hello again","attachedDocument": "","messageStatus": "R","postedTime": "1568729911","profilePicture": "https://pro.axistms.com/upload/admin_carrier_files/1552478525_carrierLogo_Axis Account Logo.png"
+                    },
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12406","senderID": "4285","receiverID": "4548","messageText": "hi loooooo","attachedDocument": "","messageStatus": "R","postedTime": "1568729926","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+                {"firstName": "Bill","lastName": "Maurer","phoneNumber": "+13128044746","id": "12408","senderID": "4548","receiverID": "4285","messageText": "hiiihave","attachedDocument": "undefined","messageStatus": "R","postedTime": "1568731013","profilePicture": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg"},
+        
+                {"firstName": "John","lastName": "Smith","phoneNumber": "1111111111","id": "12412","senderID": "4285","receiverID": "4548","messageText": "hi","attachedDocument": "","messageStatus": "R","postedTime": "1568780695","profilePicture": "https://irs3.4sqi.net/img/user/original/HBVX4T2WQOGG20FE.png"
+                    },
+        {"firstName": "Bill","lastName": "Maurer","phoneNumber": "+13128044746","id": "12408","senderID": "4548","receiverID": "4285","messageText": "Hello how are you? welcome to mission athletic group","attachedDocument": "undefined","messageStatus": "R","postedTime": "1568731013","profilePicture": "https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50.jpg"
+                    }
+            ],
+        "message": "Successfull"
+}

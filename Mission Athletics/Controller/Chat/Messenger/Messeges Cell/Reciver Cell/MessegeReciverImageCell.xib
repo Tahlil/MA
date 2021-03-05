@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="brandon-grotesque-light-58a8a4b38001d.otf">
+            <string>BrandonGrotesque-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="175" id="KGk-i7-Jjw" customClass="MessegeReciverImageCell" customModule="Mission_Athletics" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:35 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wnx-gR-AWc">
+                        <rect key="frame" x="207" y="127.5" width="50" height="17.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="mPe-44-clE"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="BrandonGrotesque-Light" family="Brandon Grotesque" pointSize="12"/>
+                        <color key="textColor" white="0.5" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HgF-WA-BpK">
+                        <rect key="frame" x="10" y="5" width="192" height="140"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="140" id="hcO-H0-yoM"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBa-Oe-8HZ">
+                        <rect key="frame" x="10" y="5" width="192" height="140"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wnx-gR-AWc" secondAttribute="trailing" priority="999" constant="5" id="3qd-ZF-M9H"/>
+                    <constraint firstAttribute="bottom" secondItem="HgF-WA-BpK" secondAttribute="bottom" constant="5" id="6BW-95-gWp"/>
+                    <constraint firstItem="Wnx-gR-AWc" firstAttribute="leading" secondItem="HgF-WA-BpK" secondAttribute="trailing" constant="5" id="7Jy-SF-9CN"/>
+                    <constraint firstItem="gBa-Oe-8HZ" firstAttribute="trailing" secondItem="HgF-WA-BpK" secondAttribute="trailing" id="Nun-13-eQu"/>
+                    <constraint firstItem="HgF-WA-BpK" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.6" id="Nv3-hE-bJo"/>
+                    <constraint firstItem="gBa-Oe-8HZ" firstAttribute="bottom" secondItem="HgF-WA-BpK" secondAttribute="bottom" id="Snh-W4-3YU"/>
+                    <constraint firstAttribute="bottom" secondItem="Wnx-gR-AWc" secondAttribute="bottom" constant="5" id="UiD-7M-F9N"/>
+                    <constraint firstItem="gBa-Oe-8HZ" firstAttribute="leading" secondItem="HgF-WA-BpK" secondAttribute="leading" id="gVr-5r-nXU"/>
+                    <constraint firstItem="gBa-Oe-8HZ" firstAttribute="top" secondItem="HgF-WA-BpK" secondAttribute="top" id="k5b-KU-YIB"/>
+                    <constraint firstItem="HgF-WA-BpK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="lqj-8P-7Ib"/>
+                    <constraint firstItem="HgF-WA-BpK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="mKr-RC-Ld9"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnImgPreview" destination="gBa-Oe-8HZ" id="krH-Ck-Rdo"/>
+                <outlet property="imgReciever" destination="HgF-WA-BpK" id="q6P-Rm-uiT"/>
+                <outlet property="lblTime" destination="Wnx-gR-AWc" id="hML-Qi-asj"/>
+            </connections>
+            <point key="canvasLocation" x="132.80000000000001" y="194.75262368815595"/>
+        </tableViewCell>
+    </objects>
+</document>
